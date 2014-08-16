@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox repaint bug</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+  <div class="row">
+    <div class="column">
+      <div class="blue">
+        Change text by pressing 'b'
+      </div>
+      <div class="red">
+        Change text by pressing 'r'
+      </div>
+    </div>
+    <div class="green">
+      Change text by pressing 'g'
+    </div>
+    <div class="info">
+      When you change one element the entire window is repainted. I would expect
+      that only the changed element would be repainted.
+    </div>
+  </div>
+  </body>
+</html>

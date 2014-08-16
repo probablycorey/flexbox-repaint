@@ -1,0 +1,33 @@
+html, body {
+  padding: 0;
+  margin: 0;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.row div {
+  flex: 1;
+}
+
+.red {
+  background-color: #fbb;
+}
+
+.blue {
+  background-color: #bbf;
+}
+
+.green {
+  background-color: #bfb;
+}
